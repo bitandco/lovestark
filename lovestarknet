@@ -1,5 +1,5 @@
 #[contract]
-mod LoveStarknet {
+mod Love-Starknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
@@ -9,7 +9,7 @@ mod LoveStarknet {
 
 
     #[external]
-    fn Say_LoveStarknet(message: felt252) {
+    fn Say_Love-Starknet(message: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
     }
