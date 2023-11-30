@@ -5,7 +5,7 @@ mod Love_Starknet_sky {
 
 
     #[event]
-    fn Love_Starknet(from: ContractAddress, value: felt252) {}
+    fn Love_Starknet_sky(from: ContractAddress, value: felt252) {}
 
 
     #[external]
