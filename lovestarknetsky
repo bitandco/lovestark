@@ -9,7 +9,7 @@ mod Love_Starknet_sky {
 
 
     #[external]
-    fn Say_Love_Starknet(message: felt252) {
+    fn Say_Love_Starknet_sky(message: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
     }
