@@ -1,5 +1,5 @@
 #[contract]
-mod Love_Starknet {
+mod Love_Starknet_sky {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
