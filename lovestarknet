@@ -5,7 +5,7 @@ mod Love-Starknet {
 
 
     #[event]
-    fn Hello(from: ContractAddress, value: felt252) {}
+    fn LoveStarknet(from: ContractAddress, value: felt252) {}
 
 
     #[external]
